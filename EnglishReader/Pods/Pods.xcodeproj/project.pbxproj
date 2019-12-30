@@ -1,0 +1,1585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0005F88F231BBCA4093EFC474993AD80 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F95532442466CBAFFDAB13420E667 /* Element.swift */; };
+		01801739A9EDEF1F102FBF32CC8F1E5B /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = E07AF1C907657D257AF233ED24007733 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		03027A41BC4C10C2EDC2B9D24B30E1D0 /* Pods-EnglishReaderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0306FB3FC936E29D05352F6831E3898B /* Pods-EnglishReaderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A73DFBE0D8F3B33CAD1D1E296A5AF8 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E5B4AACFEFE05510EFE6BA866C1FA8 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05BADF3AE43C4B5F2DFA8E21ACD3518A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DDEAE4893D0EA575E27DDFD00D5C7C /* Foundation.framework */; };
+		10D7513788C8EB559C463504688624BB /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 95A81535D4D637DC28F082C288D2B930 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		114D5AE836EEF187F7DB4F6827171480 /* Pods-EnglishReaderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC855E80ADD14A85BDEC999DAA6F3A01 /* Pods-EnglishReaderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1217AEF6A6F0148B88E2E6A62C33C56B /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CA34DB8951DA3D710B6EF34F49214F /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B7F12AC431837F9B6B955B5743EE7A /* ChapterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727324A857E89F7F6E6625664EE82728 /* ChapterItem.swift */; };
+		1898374B93C6E0FD02662E8AE9A8A2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DDEAE4893D0EA575E27DDFD00D5C7C /* Foundation.framework */; };
+		1B7A76F7525BE47E1739701A64D38E55 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = F0070E211682D6104E1DC4EF4459C648 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D83F9F5F32871614058476DF2003AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DDEAE4893D0EA575E27DDFD00D5C7C /* Foundation.framework */; };
+		1E253F26C24C360F31C997905093A0D6 /* aes_ni.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF0A9BF1C1E9EB2DCA5D999CED481E2 /* aes_ni.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2065949C34FA3830A9EB19BDFED4D573 /* EPubContentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2025766EA8890252A2B73A63A4829E /* EPubContentParser.swift */; };
+		21440BAB541088C29BA099DE7AD6D8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DDEAE4893D0EA575E27DDFD00D5C7C /* Foundation.framework */; };
+		243D075311831786191E3CDB4B6D2702 /* SpineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0775F8311B8A927FD609BE9BA1C37F5 /* SpineItem.swift */; };
+		2C1573900D83F1549512B4523AAB04CA /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 090F692426652845F67197CCD5ABCFAF /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F730ECB9F70FF263480CDADC12216A8 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 88B9FAA9ABBB2385D3FC06EB8AA6828F /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31B3A51456AE965E22F5740DC20475BF /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F8AB2F8FFA546823D531022D8B406A4 /* ioapi_mem.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3598AC750FFADADAB5BA66CEED06D4F6 /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2887863BA1388EE02BCDA4D4CCE5EF8 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3611765C66DDC6FD63B55789747C59AC /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 980D451E84BC98858D726A87427B34D5 /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F71B78F6A3E0ADB02D06B9FE8AA8723 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE3FAD7C11FB8B44F4B242C39175A54 /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46B3018E551B4A28B3FE19E647070D1F /* Pods-EnglishReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5673722A267A3160EB94A431670B91AF /* Pods-EnglishReader-dummy.m */; };
+		49A331F948CAD2351FE4F71632197BCA /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4459D5E5EE7D440C593BC53F69929508 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C0F410D34F2E2959683EE56F8A47E90 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE9328A3927CB0B81BA2632059E212 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F1251DC2B7F7AFA978B0B1B844DD6D0 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BD093016CFF595828D1EC4F4B1B82E /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5589DF9C80FE328ECA40C5F20A93E9C3 /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 154CD21652E69BA64C00042E1A6E3835 /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55E7D9D3A21FDE6283785026C37D764B /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C4C18CA1FABFB50E6E92ED77E9AC2A /* EpubParser.swift */; };
+		59E33B34D2074C353E05F384C93C2CE2 /* ArchiveExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E63F409FAE7D6B31144BE8BC49BC77 /* ArchiveExtractor.swift */; };
+		5C392B149CD5EB82CC6292CF469A2850 /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409B9619740B2E1CDF7489CC808DFFF0 /* SSZipArchive.framework */; };
+		5C790A7DCEA0844C8ABCD3156BB74C5D /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6710B08ABE6A716044B0E917B879CE16 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6744345E25F01FC6CC0B3480E5BE4E40 /* Epub3ContentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CEC21EBDCEF4CA0575511C28DC215 /* Epub3ContentParser.swift */; };
+		696B67BD74DD6244A4DAFF2271815018 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = BE35702B42A113FD7C6223A09B8AAFA3 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6A0295E625C3D15349427246A0506404 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC92D63E850D2D6C82CC7141CE23300 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B42E38F1668AEFF2B51A47864B5454D /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283A063A7C5F372F506DFDA63F52D6A /* Parser.swift */; };
+		6DE61DB9FE770B1A9B8182FFF291D444 /* Pods-EnglishReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47060C818E5C315CF142E8F01F61D8E8 /* Pods-EnglishReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ED5B5CE6E6697D6E87170B8F7E20CF8 /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B480C2AEA521F101B42A7474AA5AC8 /* AEXML-dummy.m */; };
+		713EA7A5B36A8CB9918A6C4B28BBA143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DDEAE4893D0EA575E27DDFD00D5C7C /* Foundation.framework */; };
+		72AB16D40BAC4CF613D1DFD655E11CA9 /* minishared.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DD43E4CECA4045FA95A48F6C97D59A /* minishared.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		739456ECFC0942B8ADB02CCADBD50691 /* EPubExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D98EA5BE210AD12709D9F828466F4B /* EPubExtractor.swift */; };
+		80FE4F8D6A53EF6F5A7D07883767941E /* ManifestItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7942D2A754E98469DEDE50920C2BEA83 /* ManifestItem.swift */; };
+		84AD1B5614587B6FB52E9939AFAEAFFF /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E71D030385F4D5CB2B9DDE996F3F734 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86044FABB5FC2F44201609C2C92FA5B7 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D56B77ADE1CFEB3A40CA0C002094A4F /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		864D01C57B3443A5632BDC664192BDE9 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4B0258122C63FFE03AEC2BEAFC5AF3 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88D16ED7C940F6E33F8532AC93EA7625 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E62C2913941FD4BE631B602E4C3531D4 /* SSZipArchive-dummy.m */; };
+		913B395242548AE67E4023B000367726 /* GuideItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3941B6CEF3E261672B2B5EDEFE4E6 /* GuideItem.swift */; };
+		9166340A8E7F5343168D67A521DDB053 /* Epub2ContentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9481ADEF6B3483A63FDEFCC34FD8A /* Epub2ContentParser.swift */; };
+		91BEB9935B9262C78B17EF88CCC4E1DC /* Epub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E7217D8B6639703DE4A4187E90EFE /* Epub.swift */; };
+		9472699D2CD75D20FE90521CD9CB4ECC /* minishared.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BB6AEE71B44A9C9A92776B59A48820D /* minishared.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		951C228889710CFF6419029F62AA8BA5 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 581F86DB4DD731982155564225CF8DD9 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A161C91704E777B0004954F4CD7C6491 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 190B84542033E8D03C7B350E8F42FDFE /* ioapi_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4A9F1B949E9575413A71706DC152633 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BCDEE4CCAC5099BBC3C9679B69230F /* ioapi_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A573058757336D9399800421CD64D36F /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = BF53A384020814DE923D58602962C814 /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA2AD8C2748C4808EAE200A7F024E0DF /* EpubExtractor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC274ADC0DDB83E25B7AA3D2FBFF1C7 /* EpubExtractor-dummy.m */; };
+		AF3BD064276AAFFF4B31B1F88D18A3F5 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 310DF0613C949A6B6DA6EC0155780A83 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B620A5349F644E5E7C8A2D139A2F07F2 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = C53BD15B77DA95A94B16759EA1C16C57 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B724A5CA6A102595FECF860AC641E1E6 /* EpubExtractor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D86846E2D7F7E034906C441ED965ACF2 /* EpubExtractor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB89934CAA18BD032AC7ECFBC8CCB1F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DDEAE4893D0EA575E27DDFD00D5C7C /* Foundation.framework */; };
+		BEEBAA3CA0BE35656CC45153302A8FDB /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C619E2F6B82BDEF5483BDF66F2B246 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1746D87176A455F5FFA961075BA9999 /* Pods-EnglishReaderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9205620F2C7F05288431593EE4BC4CC6 /* Pods-EnglishReaderTests-dummy.m */; };
+		C8A1BD4A4886E0B0AF22161814C0EB3F /* Pods-EnglishReaderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E517C9A7369F276814DF0C68D1001 /* Pods-EnglishReaderUITests-dummy.m */; };
+		C93D3613284B7DB370F0F32E76CC889E /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE11601B9FEAE57908F43A86F97A30C /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE0C251BA0B3EBD147970983BBF380D8 /* Epub2ChapterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E24CF01E38E3B01FC4B70016D416F /* Epub2ChapterItem.swift */; };
+		CED1F6BEE5A17801BBD73533B99D5D47 /* Epub3ChapterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DDF50C2F4EFCF90C98D212FFFA3768 /* Epub3ChapterItem.swift */; };
+		D01738ECD58751D9C6D5D98A523513AD /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = E174C381009A580606D4C2E81A01E9E0 /* ioapi_buf.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0BE3810629C6F2FDB3BF3C756D8F9EC /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F706607697F96214172735B7B39B0 /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9D66125E304E9BE3B9F81FD23267B14 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E382E5EB9034A0FD8F701E377E0D6A /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDA5F8EEF76B84B00E54E858FF1B3A5E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB22FA7998C1A2508241957CE178FF4 /* Error.swift */; };
+		DDF5B7DF9D8ABF41CFCAE39A6882E3FE /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA1BC4CD8339DA29AE51DA6D47ABA3 /* Document.swift */; };
+		DE8ACEBAD7F88060B8951A25E78D2D8C /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EABE7044B0DA337BF3D756C138F4CE /* AEXML.framework */; };
+		E20D5A44C8C35D7A04953C1CA31D6D39 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 24CE077DADD116E18BADCFF28D8049EA /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E214619FBE79E91D038C324A1A498346 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC97285F3FEF62AA5D859E18724EDBC /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7BD61FC5E5E16492E12DB33A32C4643 /* aes_ni.c in Sources */ = {isa = PBXBuildFile; fileRef = C3264E786A6657E80EA57C82B3B72E16 /* aes_ni.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F08B20B55D027121B21B02F6E4A1C431 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E4AD56B96A13E5F28F2C66C068D516 /* Options.swift */; };
+		F35D9A452EC18767A297975218D892C9 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 195D02ABF0E2F8564A548F69030894BE /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8F5F2A8FA32A7064DAA672ECCCE399A /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 559AC50C55804B3F6580C5B6B9A43902 /* crypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B9B246E87DAFD5FD6BCE1150E17AEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939DA4FAAB94FC5EE0B3FCF4BAA2C49E;
+			remoteInfo = AEXML;
+		};
+		28BD9BDE7B63166D15B39F3D8B40B929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939DA4FAAB94FC5EE0B3FCF4BAA2C49E;
+			remoteInfo = AEXML;
+		};
+		8AC626F468A5C953EA90BE63688FCAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D379C12FA3256047FD219A12A9DCE7;
+			remoteInfo = EpubExtractor;
+		};
+		8BA36C254E5FBD9C6DCBDEC082AF428C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1579D145982373DF97A2628BF0C374BD;
+			remoteInfo = SSZipArchive;
+		};
+		AEDDF7903D7ABCC9B0E54003AAE84208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92F1F814F02999E94C7871C9A87987B;
+			remoteInfo = "Pods-EnglishReader";
+		};
+		C139CA08798019334BB53DB91BDB1779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1579D145982373DF97A2628BF0C374BD;
+			remoteInfo = SSZipArchive;
+		};
+		D7FCB95B0B29F094978E4F1AB9CDCDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92F1F814F02999E94C7871C9A87987B;
+			remoteInfo = "Pods-EnglishReader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012E24CF01E38E3B01FC4B70016D416F /* Epub2ChapterItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Epub2ChapterItem.swift; path = EpubExtractor/Classes/Epub2ChapterItem.swift; sourceTree = "<group>"; };
+		025FCD0C0EB641BD0622783B99D0C736 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0306FB3FC936E29D05352F6831E3898B /* Pods-EnglishReaderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnglishReaderTests-umbrella.h"; sourceTree = "<group>"; };
+		07CEF24D447369AB53AB4E8BC50DE0E5 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		090F692426652845F67197CCD5ABCFAF /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/minizip/aes/brg_types.h; sourceTree = "<group>"; };
+		0F4B0258122C63FFE03AEC2BEAFC5AF3 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		0FE3FAD7C11FB8B44F4B242C39175A54 /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/minizip/aes/brg_endian.h; sourceTree = "<group>"; };
+		12DDEAE4893D0EA575E27DDFD00D5C7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1533B6E62EFE213367054F99013BFB41 /* Pods-EnglishReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnglishReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		154CD21652E69BA64C00042E1A6E3835 /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/minizip/aes/prng.h; sourceTree = "<group>"; };
+		1800BC92603A7210AA809ED651E09A99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3941B6CEF3E261672B2B5EDEFE4E6 /* GuideItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuideItem.swift; path = EpubExtractor/Classes/GuideItem.swift; sourceTree = "<group>"; };
+		190B84542033E8D03C7B350E8F42FDFE /* ioapi_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi_mem.h; path = SSZipArchive/minizip/ioapi_mem.h; sourceTree = "<group>"; };
+		195D02ABF0E2F8564A548F69030894BE /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		1BB6AEE71B44A9C9A92776B59A48820D /* minishared.c */ = {isa = PBXFileReference; includeInIndex = 1; name = minishared.c; path = SSZipArchive/minizip/minishared.c; sourceTree = "<group>"; };
+		1D368C3678CB6D76E3B1BA78F010336C /* Pods-EnglishReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnglishReader.modulemap"; sourceTree = "<group>"; };
+		1E71D030385F4D5CB2B9DDE996F3F734 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aescrypt.c; path = SSZipArchive/minizip/aes/aescrypt.c; sourceTree = "<group>"; };
+		2163FC0FF82702ED97F206E3BD888D93 /* Pods-EnglishReaderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnglishReaderUITests-resources.sh"; sourceTree = "<group>"; };
+		240FDCE68DF69A0553D19B298CFBA106 /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		24CA34DB8951DA3D710B6EF34F49214F /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
+		24CE077DADD116E18BADCFF28D8049EA /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		2B20CDFF51EDA0BC84A52332AF10A693 /* AEXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.xcconfig; sourceTree = "<group>"; };
+		310DF0613C949A6B6DA6EC0155780A83 /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		3188963FC8050807C27E2EB912A3B33F /* Pods-EnglishReaderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnglishReaderTests-frameworks.sh"; sourceTree = "<group>"; };
+		32BCDEE4CCAC5099BBC3C9679B69230F /* ioapi_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi_buf.h; path = SSZipArchive/minizip/ioapi_buf.h; sourceTree = "<group>"; };
+		36C182FAE6F9C948615ADE79A8809BA3 /* Pods-EnglishReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnglishReader.debug.xcconfig"; sourceTree = "<group>"; };
+		3CBE55C20949E435F77DAD7C7DE4FA4C /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409B9619740B2E1CDF7489CC808DFFF0 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A349F79321FED038AE82C4CAC6D2A6 /* Pods_EnglishReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EnglishReaderTests.framework; path = "Pods-EnglishReaderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E7A790FF05C275031F8A8DB2A4A0DE /* Pods-EnglishReader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnglishReader-resources.sh"; sourceTree = "<group>"; };
+		4459D5E5EE7D440C593BC53F69929508 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		47060C818E5C315CF142E8F01F61D8E8 /* Pods-EnglishReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnglishReader-umbrella.h"; sourceTree = "<group>"; };
+		490AC94EA5ACBEAEF5946F801C575C35 /* Pods-EnglishReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnglishReader.release.xcconfig"; sourceTree = "<group>"; };
+		4EC3EDFACC9A96A810018B53328F69BA /* Pods-EnglishReaderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnglishReaderTests.modulemap"; sourceTree = "<group>"; };
+		4F7F706607697F96214172735B7B39B0 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		50CA1BC4CD8339DA29AE51DA6D47ABA3 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/AEXML/Document.swift; sourceTree = "<group>"; };
+		53D1FC1B790FCD8CB6CDF7A0A85BAF97 /* Pods-EnglishReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnglishReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		559AC50C55804B3F6580C5B6B9A43902 /* crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypt.c; path = SSZipArchive/minizip/crypt.c; sourceTree = "<group>"; };
+		5673722A267A3160EB94A431670B91AF /* Pods-EnglishReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnglishReader-dummy.m"; sourceTree = "<group>"; };
+		581F86DB4DD731982155564225CF8DD9 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		58C619E2F6B82BDEF5483BDF66F2B246 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/minizip/aes/aestab.h; sourceTree = "<group>"; };
+		5B4F92E71A9F8C46F5137FFC47DF9BA7 /* Pods-EnglishReaderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnglishReaderTests-resources.sh"; sourceTree = "<group>"; };
+		61E382E5EB9034A0FD8F701E377E0D6A /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/minizip/aes/hmac.h; sourceTree = "<group>"; };
+		6237C799331178C0BDB6009ECCBE5114 /* EpubExtractor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EpubExtractor.modulemap; sourceTree = "<group>"; };
+		6710B08ABE6A716044B0E917B879CE16 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/minizip/aes/fileenc.h; sourceTree = "<group>"; };
+		6DAE9328A3927CB0B81BA2632059E212 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		727324A857E89F7F6E6625664EE82728 /* ChapterItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChapterItem.swift; path = EpubExtractor/Classes/ChapterItem.swift; sourceTree = "<group>"; };
+		72EABE7044B0DA337BF3D756C138F4CE /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E63F409FAE7D6B31144BE8BC49BC77 /* ArchiveExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArchiveExtractor.swift; path = EpubExtractor/Classes/ArchiveExtractor.swift; sourceTree = "<group>"; };
+		745E66BBF945B37AAC6D72440E55304C /* Pods-EnglishReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnglishReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		74B480C2AEA521F101B42A7474AA5AC8 /* AEXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-dummy.m"; sourceTree = "<group>"; };
+		7942D2A754E98469DEDE50920C2BEA83 /* ManifestItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManifestItem.swift; path = EpubExtractor/Classes/ManifestItem.swift; sourceTree = "<group>"; };
+		7D56B77ADE1CFEB3A40CA0C002094A4F /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/minizip/aes/sha1.h; sourceTree = "<group>"; };
+		834E7217D8B6639703DE4A4187E90EFE /* Epub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Epub.swift; path = EpubExtractor/Classes/Epub.swift; sourceTree = "<group>"; };
+		8803DB30CCFEA6B3D45807F3D606F952 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B9FAA9ABBB2385D3FC06EB8AA6828F /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aeskey.c; path = SSZipArchive/minizip/aes/aeskey.c; sourceTree = "<group>"; };
+		89DD43E4CECA4045FA95A48F6C97D59A /* minishared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = minishared.h; path = SSZipArchive/minizip/minishared.h; sourceTree = "<group>"; };
+		89E5B4AACFEFE05510EFE6BA866C1FA8 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/minizip/aes/aes.h; sourceTree = "<group>"; };
+		8AC97285F3FEF62AA5D859E18724EDBC /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		8B494DABE2F9230CFFE7249F194F2362 /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
+		8DE11601B9FEAE57908F43A86F97A30C /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/minizip/aes/pwd2key.h; sourceTree = "<group>"; };
+		90DFA167F252890258BC360B9BE88012 /* EpubExtractor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EpubExtractor.xcconfig; sourceTree = "<group>"; };
+		914260C16FC5A47E3A7517DD75D5A3A4 /* EpubExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EpubExtractor.framework; path = EpubExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E4AD56B96A13E5F28F2C66C068D516 /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/AEXML/Options.swift; sourceTree = "<group>"; };
+		9205620F2C7F05288431593EE4BC4CC6 /* Pods-EnglishReaderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnglishReaderTests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BD093016CFF595828D1EC4F4B1B82E /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/minizip/aes/aesopt.h; sourceTree = "<group>"; };
+		95A81535D4D637DC28F082C288D2B930 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aestab.c; path = SSZipArchive/minizip/aes/aestab.c; sourceTree = "<group>"; };
+		980D451E84BC98858D726A87427B34D5 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = SSZipArchive/minizip/aes/sha1.c; sourceTree = "<group>"; };
+		9AD6CE5E7DE168D19BA7F15EF8AE7508 /* Pods_EnglishReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EnglishReaderUITests.framework; path = "Pods-EnglishReaderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B980127CE8B38C41E828E55007805BB /* Pods-EnglishReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnglishReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB2E33F614FACE03532E41DB41375AB /* Pods-EnglishReader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnglishReader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F8AB2F8FFA546823D531022D8B406A4 /* ioapi_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi_mem.c; path = SSZipArchive/minizip/ioapi_mem.c; sourceTree = "<group>"; };
+		A0775F8311B8A927FD609BE9BA1C37F5 /* SpineItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpineItem.swift; path = EpubExtractor/Classes/SpineItem.swift; sourceTree = "<group>"; };
+		A09714402D8BBC66BC426FDC10C9C60A /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEXML.modulemap; sourceTree = "<group>"; };
+		A2887863BA1388EE02BCDA4D4CCE5EF8 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
+		A54788E886C1F0ED61A91ABD844CA125 /* EpubExtractor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EpubExtractor-prefix.pch"; sourceTree = "<group>"; };
+		A8DDF50C2F4EFCF90C98D212FFFA3768 /* Epub3ChapterItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Epub3ChapterItem.swift; path = EpubExtractor/Classes/Epub3ChapterItem.swift; sourceTree = "<group>"; };
+		B675607CD6FD29C5E7DC0E7DE693986F /* Pods-EnglishReaderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnglishReaderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAB22FA7998C1A2508241957CE178FF4 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/AEXML/Error.swift; sourceTree = "<group>"; };
+		BD8F95532442466CBAFFDAB13420E667 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/AEXML/Element.swift; sourceTree = "<group>"; };
+		BE35702B42A113FD7C6223A09B8AAFA3 /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwd2key.c; path = SSZipArchive/minizip/aes/pwd2key.c; sourceTree = "<group>"; };
+		BF53A384020814DE923D58602962C814 /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; name = prng.c; path = SSZipArchive/minizip/aes/prng.c; sourceTree = "<group>"; };
+		C3264E786A6657E80EA57C82B3B72E16 /* aes_ni.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aes_ni.c; path = SSZipArchive/minizip/aes/aes_ni.c; sourceTree = "<group>"; };
+		C32FDA74555E742CA5412CCCFA292C43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53BD15B77DA95A94B16759EA1C16C57 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		CC855E80ADD14A85BDEC999DAA6F3A01 /* Pods-EnglishReaderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnglishReaderUITests-umbrella.h"; sourceTree = "<group>"; };
+		CDC274ADC0DDB83E25B7AA3D2FBFF1C7 /* EpubExtractor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EpubExtractor-dummy.m"; sourceTree = "<group>"; };
+		D0C4C18CA1FABFB50E6E92ED77E9AC2A /* EpubParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EpubParser.swift; path = EpubExtractor/Classes/EpubParser.swift; sourceTree = "<group>"; };
+		D283A063A7C5F372F506DFDA63F52D6A /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/AEXML/Parser.swift; sourceTree = "<group>"; };
+		D3195456B713FF9A00150CB1202E5D7F /* Pods-EnglishReaderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnglishReaderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3A9481ADEF6B3483A63FDEFCC34FD8A /* Epub2ContentParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Epub2ContentParser.swift; path = EpubExtractor/Classes/Epub2ContentParser.swift; sourceTree = "<group>"; };
+		D3D98EA5BE210AD12709D9F828466F4B /* EPubExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPubExtractor.swift; path = EpubExtractor/Classes/EPubExtractor.swift; sourceTree = "<group>"; };
+		D85F09571B62B3C7988A7D32A335DE78 /* Pods_EnglishReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EnglishReader.framework; path = "Pods-EnglishReader.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86846E2D7F7E034906C441ED965ACF2 /* EpubExtractor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EpubExtractor-umbrella.h"; sourceTree = "<group>"; };
+		D86CEC21EBDCEF4CA0575511C28DC215 /* Epub3ContentParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Epub3ContentParser.swift; path = EpubExtractor/Classes/Epub3ContentParser.swift; sourceTree = "<group>"; };
+		D9534F0D6EC7F1CD50DCF219FBB7927A /* Pods-EnglishReader-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnglishReader-frameworks.sh"; sourceTree = "<group>"; };
+		D975D5A8286EA00FE1A498C8F50AFFA1 /* Pods-EnglishReaderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnglishReaderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D97E517C9A7369F276814DF0C68D1001 /* Pods-EnglishReaderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnglishReaderUITests-dummy.m"; sourceTree = "<group>"; };
+		DB4C68C51AF7ECE5730FE1471E26AC67 /* Pods-EnglishReaderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnglishReaderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DDC92D63E850D2D6C82CC7141CE23300 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		E07AF1C907657D257AF233ED24007733 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fileenc.c; path = SSZipArchive/minizip/aes/fileenc.c; sourceTree = "<group>"; };
+		E174C381009A580606D4C2E81A01E9E0 /* ioapi_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi_buf.c; path = SSZipArchive/minizip/ioapi_buf.c; sourceTree = "<group>"; };
+		E26623876C7156AB57E9A24A62FF46A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D23FD75C6778DDB4345820A4ABC1A6 /* Pods-EnglishReaderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnglishReaderUITests.modulemap"; sourceTree = "<group>"; };
+		E62C2913941FD4BE631B602E4C3531D4 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		E81C9D7CCFED71DB2D69F883A7911A90 /* Pods-EnglishReader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnglishReader-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB5A850206FD093E39C6A4E6A91CB7A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF0A9BF1C1E9EB2DCA5D999CED481E2 /* aes_ni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ni.h; path = SSZipArchive/minizip/aes/aes_ni.h; sourceTree = "<group>"; };
+		EE2025766EA8890252A2B73A63A4829E /* EPubContentParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPubContentParser.swift; path = EpubExtractor/Classes/EPubContentParser.swift; sourceTree = "<group>"; };
+		EF5F3C4EACB007FCBEC0EEB9D54D25CB /* AEXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-prefix.pch"; sourceTree = "<group>"; };
+		F0070E211682D6104E1DC4EF4459C648 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = SSZipArchive/minizip/aes/hmac.c; sourceTree = "<group>"; };
+		F5540C69F03DF138BAB7D067BCB9B4AF /* Pods-EnglishReaderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnglishReaderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F84641448C479BDA23932235BC6322A6 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEXML.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF930A0A4919141E8B9E3BE4F244F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB89934CAA18BD032AC7ECFBC8CCB1F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D79215EE99816E5605183C5A34D7599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21440BAB541088C29BA099DE7AD6D8A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7A3DD2EBCC580BCE6A0BF046BBBA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D83F9F5F32871614058476DF2003AE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10666151563D3DC6EF9A790D9D17AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713EA7A5B36A8CB9918A6C4B28BBA143 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BCFA76BBAB3DF577C83BAE82578192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8ACEBAD7F88060B8951A25E78D2D8C /* AEXML.framework in Frameworks */,
+				05BADF3AE43C4B5F2DFA8E21ACD3518A /* Foundation.framework in Frameworks */,
+				5C392B149CD5EB82CC6292CF469A2850 /* SSZipArchive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E6020736A4B63C32D7AAF0B8C3674A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1898374B93C6E0FD02662E8AE9A8A2B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01352E59B2B005F385D1A65854AA7306 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76488CE1365256B2109ED82A540AFC21 /* Pods-EnglishReader */,
+				65ACEE80AACC8311039C11894FD4A4CD /* Pods-EnglishReaderTests */,
+				E93F091DB16CC1650DA7B3856CB8E444 /* Pods-EnglishReaderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		02C4261C6C7BF7E6A2558EE64659E1B5 /* AEXML */ = {
+			isa = PBXGroup;
+			children = (
+				50CA1BC4CD8339DA29AE51DA6D47ABA3 /* Document.swift */,
+				BD8F95532442466CBAFFDAB13420E667 /* Element.swift */,
+				BAB22FA7998C1A2508241957CE178FF4 /* Error.swift */,
+				91E4AD56B96A13E5F28F2C66C068D516 /* Options.swift */,
+				D283A063A7C5F372F506DFDA63F52D6A /* Parser.swift */,
+				1EC5C7F4286A885C53E9423B42BFEDA1 /* Support Files */,
+			);
+			name = AEXML;
+			path = AEXML;
+			sourceTree = "<group>";
+		};
+		10CBAF3475537B0EE9F64FD117225B69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02C4261C6C7BF7E6A2558EE64659E1B5 /* AEXML */,
+				DA6E148A43576B67E72CEEA1BDBBDD37 /* EpubExtractor */,
+				42E64B52E6BA0D54C32A60D995C7D6DC /* SSZipArchive */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EC5C7F4286A885C53E9423B42BFEDA1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09714402D8BBC66BC426FDC10C9C60A /* AEXML.modulemap */,
+				2B20CDFF51EDA0BC84A52332AF10A693 /* AEXML.xcconfig */,
+				74B480C2AEA521F101B42A7474AA5AC8 /* AEXML-dummy.m */,
+				EF5F3C4EACB007FCBEC0EEB9D54D25CB /* AEXML-prefix.pch */,
+				24CA34DB8951DA3D710B6EF34F49214F /* AEXML-umbrella.h */,
+				C32FDA74555E742CA5412CCCFA292C43 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AEXML";
+			sourceTree = "<group>";
+		};
+		42E64B52E6BA0D54C32A60D995C7D6DC /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				89E5B4AACFEFE05510EFE6BA866C1FA8 /* aes.h */,
+				C3264E786A6657E80EA57C82B3B72E16 /* aes_ni.c */,
+				ECF0A9BF1C1E9EB2DCA5D999CED481E2 /* aes_ni.h */,
+				1E71D030385F4D5CB2B9DDE996F3F734 /* aescrypt.c */,
+				88B9FAA9ABBB2385D3FC06EB8AA6828F /* aeskey.c */,
+				93BD093016CFF595828D1EC4F4B1B82E /* aesopt.h */,
+				95A81535D4D637DC28F082C288D2B930 /* aestab.c */,
+				58C619E2F6B82BDEF5483BDF66F2B246 /* aestab.h */,
+				0FE3FAD7C11FB8B44F4B242C39175A54 /* brg_endian.h */,
+				090F692426652845F67197CCD5ABCFAF /* brg_types.h */,
+				559AC50C55804B3F6580C5B6B9A43902 /* crypt.c */,
+				C53BD15B77DA95A94B16759EA1C16C57 /* crypt.h */,
+				E07AF1C907657D257AF233ED24007733 /* fileenc.c */,
+				6710B08ABE6A716044B0E917B879CE16 /* fileenc.h */,
+				F0070E211682D6104E1DC4EF4459C648 /* hmac.c */,
+				61E382E5EB9034A0FD8F701E377E0D6A /* hmac.h */,
+				310DF0613C949A6B6DA6EC0155780A83 /* ioapi.c */,
+				8AC97285F3FEF62AA5D859E18724EDBC /* ioapi.h */,
+				E174C381009A580606D4C2E81A01E9E0 /* ioapi_buf.c */,
+				32BCDEE4CCAC5099BBC3C9679B69230F /* ioapi_buf.h */,
+				9F8AB2F8FFA546823D531022D8B406A4 /* ioapi_mem.c */,
+				190B84542033E8D03C7B350E8F42FDFE /* ioapi_mem.h */,
+				1BB6AEE71B44A9C9A92776B59A48820D /* minishared.c */,
+				89DD43E4CECA4045FA95A48F6C97D59A /* minishared.h */,
+				BF53A384020814DE923D58602962C814 /* prng.c */,
+				154CD21652E69BA64C00042E1A6E3835 /* prng.h */,
+				BE35702B42A113FD7C6223A09B8AAFA3 /* pwd2key.c */,
+				8DE11601B9FEAE57908F43A86F97A30C /* pwd2key.h */,
+				980D451E84BC98858D726A87427B34D5 /* sha1.c */,
+				7D56B77ADE1CFEB3A40CA0C002094A4F /* sha1.h */,
+				581F86DB4DD731982155564225CF8DD9 /* SSZipArchive.h */,
+				4F7F706607697F96214172735B7B39B0 /* SSZipArchive.m */,
+				4459D5E5EE7D440C593BC53F69929508 /* SSZipCommon.h */,
+				24CE077DADD116E18BADCFF28D8049EA /* unzip.c */,
+				195D02ABF0E2F8564A548F69030894BE /* unzip.h */,
+				6DAE9328A3927CB0B81BA2632059E212 /* zip.c */,
+				0F4B0258122C63FFE03AEC2BEAFC5AF3 /* zip.h */,
+				DDC92D63E850D2D6C82CC7141CE23300 /* ZipArchive.h */,
+				9E1ECDCD09F6C50BBA3384982A11739D /* Support Files */,
+			);
+			name = SSZipArchive;
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		65ACEE80AACC8311039C11894FD4A4CD /* Pods-EnglishReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1800BC92603A7210AA809ED651E09A99 /* Info.plist */,
+				4EC3EDFACC9A96A810018B53328F69BA /* Pods-EnglishReaderTests.modulemap */,
+				F5540C69F03DF138BAB7D067BCB9B4AF /* Pods-EnglishReaderTests-acknowledgements.markdown */,
+				D3195456B713FF9A00150CB1202E5D7F /* Pods-EnglishReaderTests-acknowledgements.plist */,
+				9205620F2C7F05288431593EE4BC4CC6 /* Pods-EnglishReaderTests-dummy.m */,
+				3188963FC8050807C27E2EB912A3B33F /* Pods-EnglishReaderTests-frameworks.sh */,
+				5B4F92E71A9F8C46F5137FFC47DF9BA7 /* Pods-EnglishReaderTests-resources.sh */,
+				0306FB3FC936E29D05352F6831E3898B /* Pods-EnglishReaderTests-umbrella.h */,
+				1533B6E62EFE213367054F99013BFB41 /* Pods-EnglishReaderTests.debug.xcconfig */,
+				53D1FC1B790FCD8CB6CDF7A0A85BAF97 /* Pods-EnglishReaderTests.release.xcconfig */,
+			);
+			name = "Pods-EnglishReaderTests";
+			path = "Target Support Files/Pods-EnglishReaderTests";
+			sourceTree = "<group>";
+		};
+		76488CE1365256B2109ED82A540AFC21 /* Pods-EnglishReader */ = {
+			isa = PBXGroup;
+			children = (
+				E26623876C7156AB57E9A24A62FF46A9 /* Info.plist */,
+				1D368C3678CB6D76E3B1BA78F010336C /* Pods-EnglishReader.modulemap */,
+				9CB2E33F614FACE03532E41DB41375AB /* Pods-EnglishReader-acknowledgements.markdown */,
+				E81C9D7CCFED71DB2D69F883A7911A90 /* Pods-EnglishReader-acknowledgements.plist */,
+				5673722A267A3160EB94A431670B91AF /* Pods-EnglishReader-dummy.m */,
+				D9534F0D6EC7F1CD50DCF219FBB7927A /* Pods-EnglishReader-frameworks.sh */,
+				43E7A790FF05C275031F8A8DB2A4A0DE /* Pods-EnglishReader-resources.sh */,
+				47060C818E5C315CF142E8F01F61D8E8 /* Pods-EnglishReader-umbrella.h */,
+				36C182FAE6F9C948615ADE79A8809BA3 /* Pods-EnglishReader.debug.xcconfig */,
+				490AC94EA5ACBEAEF5946F801C575C35 /* Pods-EnglishReader.release.xcconfig */,
+			);
+			name = "Pods-EnglishReader";
+			path = "Target Support Files/Pods-EnglishReader";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				98920F4135727D18FDB0E3DDBEDBF0A7 /* Frameworks */,
+				10CBAF3475537B0EE9F64FD117225B69 /* Pods */,
+				C70479F583444132A2F2663C73CD318D /* Products */,
+				01352E59B2B005F385D1A65854AA7306 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8714FC12C63DB122E238340C4FF1B627 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6237C799331178C0BDB6009ECCBE5114 /* EpubExtractor.modulemap */,
+				90DFA167F252890258BC360B9BE88012 /* EpubExtractor.xcconfig */,
+				CDC274ADC0DDB83E25B7AA3D2FBFF1C7 /* EpubExtractor-dummy.m */,
+				A54788E886C1F0ED61A91ABD844CA125 /* EpubExtractor-prefix.pch */,
+				D86846E2D7F7E034906C441ED965ACF2 /* EpubExtractor-umbrella.h */,
+				EB5A850206FD093E39C6A4E6A91CB7A9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EpubExtractor";
+			sourceTree = "<group>";
+		};
+		98920F4135727D18FDB0E3DDBEDBF0A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72EABE7044B0DA337BF3D756C138F4CE /* AEXML.framework */,
+				409B9619740B2E1CDF7489CC808DFFF0 /* SSZipArchive.framework */,
+				A5801DF219010A3FB04F963EBEFDA975 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E1ECDCD09F6C50BBA3384982A11739D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8803DB30CCFEA6B3D45807F3D606F952 /* Info.plist */,
+				8B494DABE2F9230CFFE7249F194F2362 /* SSZipArchive.modulemap */,
+				240FDCE68DF69A0553D19B298CFBA106 /* SSZipArchive.xcconfig */,
+				E62C2913941FD4BE631B602E4C3531D4 /* SSZipArchive-dummy.m */,
+				07CEF24D447369AB53AB4E8BC50DE0E5 /* SSZipArchive-prefix.pch */,
+				A2887863BA1388EE02BCDA4D4CCE5EF8 /* SSZipArchive-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		A5801DF219010A3FB04F963EBEFDA975 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				12DDEAE4893D0EA575E27DDFD00D5C7C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C70479F583444132A2F2663C73CD318D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84641448C479BDA23932235BC6322A6 /* AEXML.framework */,
+				914260C16FC5A47E3A7517DD75D5A3A4 /* EpubExtractor.framework */,
+				D85F09571B62B3C7988A7D32A335DE78 /* Pods_EnglishReader.framework */,
+				41A349F79321FED038AE82C4CAC6D2A6 /* Pods_EnglishReaderTests.framework */,
+				9AD6CE5E7DE168D19BA7F15EF8AE7508 /* Pods_EnglishReaderUITests.framework */,
+				3CBE55C20949E435F77DAD7C7DE4FA4C /* SSZipArchive.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6E148A43576B67E72CEEA1BDBBDD37 /* EpubExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				73E63F409FAE7D6B31144BE8BC49BC77 /* ArchiveExtractor.swift */,
+				727324A857E89F7F6E6625664EE82728 /* ChapterItem.swift */,
+				834E7217D8B6639703DE4A4187E90EFE /* Epub.swift */,
+				012E24CF01E38E3B01FC4B70016D416F /* Epub2ChapterItem.swift */,
+				D3A9481ADEF6B3483A63FDEFCC34FD8A /* Epub2ContentParser.swift */,
+				A8DDF50C2F4EFCF90C98D212FFFA3768 /* Epub3ChapterItem.swift */,
+				D86CEC21EBDCEF4CA0575511C28DC215 /* Epub3ContentParser.swift */,
+				EE2025766EA8890252A2B73A63A4829E /* EPubContentParser.swift */,
+				D3D98EA5BE210AD12709D9F828466F4B /* EPubExtractor.swift */,
+				D0C4C18CA1FABFB50E6E92ED77E9AC2A /* EpubParser.swift */,
+				18A3941B6CEF3E261672B2B5EDEFE4E6 /* GuideItem.swift */,
+				7942D2A754E98469DEDE50920C2BEA83 /* ManifestItem.swift */,
+				A0775F8311B8A927FD609BE9BA1C37F5 /* SpineItem.swift */,
+				8714FC12C63DB122E238340C4FF1B627 /* Support Files */,
+			);
+			name = EpubExtractor;
+			path = EpubExtractor;
+			sourceTree = "<group>";
+		};
+		E93F091DB16CC1650DA7B3856CB8E444 /* Pods-EnglishReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				025FCD0C0EB641BD0622783B99D0C736 /* Info.plist */,
+				E3D23FD75C6778DDB4345820A4ABC1A6 /* Pods-EnglishReaderUITests.modulemap */,
+				B675607CD6FD29C5E7DC0E7DE693986F /* Pods-EnglishReaderUITests-acknowledgements.markdown */,
+				D975D5A8286EA00FE1A498C8F50AFFA1 /* Pods-EnglishReaderUITests-acknowledgements.plist */,
+				D97E517C9A7369F276814DF0C68D1001 /* Pods-EnglishReaderUITests-dummy.m */,
+				DB4C68C51AF7ECE5730FE1471E26AC67 /* Pods-EnglishReaderUITests-frameworks.sh */,
+				2163FC0FF82702ED97F206E3BD888D93 /* Pods-EnglishReaderUITests-resources.sh */,
+				CC855E80ADD14A85BDEC999DAA6F3A01 /* Pods-EnglishReaderUITests-umbrella.h */,
+				9B980127CE8B38C41E828E55007805BB /* Pods-EnglishReaderUITests.debug.xcconfig */,
+				745E66BBF945B37AAC6D72440E55304C /* Pods-EnglishReaderUITests.release.xcconfig */,
+			);
+			name = "Pods-EnglishReaderUITests";
+			path = "Target Support Files/Pods-EnglishReaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46EAE968BACDEC4E5C6D954EE85B8F6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A73DFBE0D8F3B33CAD1D1E296A5AF8 /* aes.h in Headers */,
+				1E253F26C24C360F31C997905093A0D6 /* aes_ni.h in Headers */,
+				4F1251DC2B7F7AFA978B0B1B844DD6D0 /* aesopt.h in Headers */,
+				BEEBAA3CA0BE35656CC45153302A8FDB /* aestab.h in Headers */,
+				3F71B78F6A3E0ADB02D06B9FE8AA8723 /* brg_endian.h in Headers */,
+				2C1573900D83F1549512B4523AAB04CA /* brg_types.h in Headers */,
+				B620A5349F644E5E7C8A2D139A2F07F2 /* crypt.h in Headers */,
+				5C790A7DCEA0844C8ABCD3156BB74C5D /* fileenc.h in Headers */,
+				D9D66125E304E9BE3B9F81FD23267B14 /* hmac.h in Headers */,
+				E214619FBE79E91D038C324A1A498346 /* ioapi.h in Headers */,
+				A4A9F1B949E9575413A71706DC152633 /* ioapi_buf.h in Headers */,
+				A161C91704E777B0004954F4CD7C6491 /* ioapi_mem.h in Headers */,
+				72AB16D40BAC4CF613D1DFD655E11CA9 /* minishared.h in Headers */,
+				5589DF9C80FE328ECA40C5F20A93E9C3 /* prng.h in Headers */,
+				C93D3613284B7DB370F0F32E76CC889E /* pwd2key.h in Headers */,
+				86044FABB5FC2F44201609C2C92FA5B7 /* sha1.h in Headers */,
+				3598AC750FFADADAB5BA66CEED06D4F6 /* SSZipArchive-umbrella.h in Headers */,
+				951C228889710CFF6419029F62AA8BA5 /* SSZipArchive.h in Headers */,
+				49A331F948CAD2351FE4F71632197BCA /* SSZipCommon.h in Headers */,
+				F35D9A452EC18767A297975218D892C9 /* unzip.h in Headers */,
+				864D01C57B3443A5632BDC664192BDE9 /* zip.h in Headers */,
+				6A0295E625C3D15349427246A0506404 /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70046428063307BC510F3FE99CC40771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114D5AE836EEF187F7DB4F6827171480 /* Pods-EnglishReaderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4784F11EE1925AD16BBC05BA2993C8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE61DB9FE770B1A9B8182FFF291D444 /* Pods-EnglishReader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E15AA1C6AA1B0EED791A27FA623D51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B724A5CA6A102595FECF860AC641E1E6 /* EpubExtractor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD96857B47BD6A21F4E09C9C6852F83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1217AEF6A6F0148B88E2E6A62C33C56B /* AEXML-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A2025E7CF4F7EFB1F60730CF1A5A0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03027A41BC4C10C2EDC2B9D24B30E1D0 /* Pods-EnglishReaderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1579D145982373DF97A2628BF0C374BD /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811CE9A800468FCBEF7EEDE68DE6E18A /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				46EAE968BACDEC4E5C6D954EE85B8F6D /* Headers */,
+				99D9165641722834442B8BBAC67D025B /* Sources */,
+				C10666151563D3DC6EF9A790D9D17AC8 /* Frameworks */,
+				294C14B519384C57FAB461E93F45327A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 3CBE55C20949E435F77DAD7C7DE4FA4C /* SSZipArchive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32D379C12FA3256047FD219A12A9DCE7 /* EpubExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46B19531B6843C2617E111E153869B2 /* Build configuration list for PBXNativeTarget "EpubExtractor" */;
+			buildPhases = (
+				B6E15AA1C6AA1B0EED791A27FA623D51 /* Headers */,
+				15A72C544199A8384C12E4F4E2E1F42A /* Sources */,
+				C1BCFA76BBAB3DF577C83BAE82578192 /* Frameworks */,
+				C15DB217C64E2D1715A303AC7096EE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E412451FBEAE9CA757AE534EDCDDF79 /* PBXTargetDependency */,
+				E54E4EA4E20CA47A166BB0C1074050B5 /* PBXTargetDependency */,
+			);
+			name = EpubExtractor;
+			productName = EpubExtractor;
+			productReference = 914260C16FC5A47E3A7517DD75D5A3A4 /* EpubExtractor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B9645696310B10EDEE9E1A66F24816C /* Pods-EnglishReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142E8194DC0F82F27E0ECF6B1F096CE3 /* Build configuration list for PBXNativeTarget "Pods-EnglishReaderUITests" */;
+			buildPhases = (
+				70046428063307BC510F3FE99CC40771 /* Headers */,
+				13F527ECCD47881FA93B994413482426 /* Sources */,
+				5D79215EE99816E5605183C5A34D7599 /* Frameworks */,
+				6D274F80B2FA971975EA03725A169F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B9E12C080ADA6623C40960D1CEAC1C /* PBXTargetDependency */,
+			);
+			name = "Pods-EnglishReaderUITests";
+			productName = "Pods-EnglishReaderUITests";
+			productReference = 9AD6CE5E7DE168D19BA7F15EF8AE7508 /* Pods_EnglishReaderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70B23E864AAED96EB3C9CF4FA24F43D0 /* Pods-EnglishReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF00C8B16DCE7D100018BD835517C258 /* Build configuration list for PBXNativeTarget "Pods-EnglishReaderTests" */;
+			buildPhases = (
+				E7A2025E7CF4F7EFB1F60730CF1A5A0D /* Headers */,
+				AF01A91D60F97F029897B5A6C7F6FE23 /* Sources */,
+				BA7A3DD2EBCC580BCE6A0BF046BBBA96 /* Frameworks */,
+				8070F6156B6930B14895B5AD9EEC3986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8032B638335E87F84232D7570357678 /* PBXTargetDependency */,
+			);
+			name = "Pods-EnglishReaderTests";
+			productName = "Pods-EnglishReaderTests";
+			productReference = 41A349F79321FED038AE82C4CAC6D2A6 /* Pods_EnglishReaderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		939DA4FAAB94FC5EE0B3FCF4BAA2C49E /* AEXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35E6AA414D91179E03510FF66D5F9E4 /* Build configuration list for PBXNativeTarget "AEXML" */;
+			buildPhases = (
+				BFD96857B47BD6A21F4E09C9C6852F83 /* Headers */,
+				132528D8BDE3D37349DF1D60BCE3275A /* Sources */,
+				F4E6020736A4B63C32D7AAF0B8C3674A /* Frameworks */,
+				FB172799C004174FC54C84DCB5182447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEXML;
+			productName = AEXML;
+			productReference = F84641448C479BDA23932235BC6322A6 /* AEXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A92F1F814F02999E94C7871C9A87987B /* Pods-EnglishReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB43C31F6A0EFB844C7AD4A05A6F33D /* Build configuration list for PBXNativeTarget "Pods-EnglishReader" */;
+			buildPhases = (
+				B4784F11EE1925AD16BBC05BA2993C8C /* Headers */,
+				3B0599DEBBF5AAAF1296F4125794783F /* Sources */,
+				5CF930A0A4919141E8B9E3BE4F244F18 /* Frameworks */,
+				23E86AD0A31B579642691B1951316786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29A5AD9A4FB30827D606602E6D28CE38 /* PBXTargetDependency */,
+				2F26F3919C4EAE769F4DCE07B0495C23 /* PBXTargetDependency */,
+				FCD548E6AB316423D7B5B1FB9361658B /* PBXTargetDependency */,
+			);
+			name = "Pods-EnglishReader";
+			productName = "Pods-EnglishReader";
+			productReference = D85F09571B62B3C7988A7D32A335DE78 /* Pods_EnglishReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C70479F583444132A2F2663C73CD318D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939DA4FAAB94FC5EE0B3FCF4BAA2C49E /* AEXML */,
+				32D379C12FA3256047FD219A12A9DCE7 /* EpubExtractor */,
+				A92F1F814F02999E94C7871C9A87987B /* Pods-EnglishReader */,
+				70B23E864AAED96EB3C9CF4FA24F43D0 /* Pods-EnglishReaderTests */,
+				4B9645696310B10EDEE9E1A66F24816C /* Pods-EnglishReaderUITests */,
+				1579D145982373DF97A2628BF0C374BD /* SSZipArchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23E86AD0A31B579642691B1951316786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294C14B519384C57FAB461E93F45327A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D274F80B2FA971975EA03725A169F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070F6156B6930B14895B5AD9EEC3986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15DB217C64E2D1715A303AC7096EE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB172799C004174FC54C84DCB5182447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132528D8BDE3D37349DF1D60BCE3275A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED5B5CE6E6697D6E87170B8F7E20CF8 /* AEXML-dummy.m in Sources */,
+				DDF5B7DF9D8ABF41CFCAE39A6882E3FE /* Document.swift in Sources */,
+				0005F88F231BBCA4093EFC474993AD80 /* Element.swift in Sources */,
+				DDA5F8EEF76B84B00E54E858FF1B3A5E /* Error.swift in Sources */,
+				F08B20B55D027121B21B02F6E4A1C431 /* Options.swift in Sources */,
+				6B42E38F1668AEFF2B51A47864B5454D /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F527ECCD47881FA93B994413482426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A1BD4A4886E0B0AF22161814C0EB3F /* Pods-EnglishReaderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A72C544199A8384C12E4F4E2E1F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E33B34D2074C353E05F384C93C2CE2 /* ArchiveExtractor.swift in Sources */,
+				13B7F12AC431837F9B6B955B5743EE7A /* ChapterItem.swift in Sources */,
+				91BEB9935B9262C78B17EF88CCC4E1DC /* Epub.swift in Sources */,
+				CE0C251BA0B3EBD147970983BBF380D8 /* Epub2ChapterItem.swift in Sources */,
+				9166340A8E7F5343168D67A521DDB053 /* Epub2ContentParser.swift in Sources */,
+				CED1F6BEE5A17801BBD73533B99D5D47 /* Epub3ChapterItem.swift in Sources */,
+				6744345E25F01FC6CC0B3480E5BE4E40 /* Epub3ContentParser.swift in Sources */,
+				2065949C34FA3830A9EB19BDFED4D573 /* EPubContentParser.swift in Sources */,
+				AA2AD8C2748C4808EAE200A7F024E0DF /* EpubExtractor-dummy.m in Sources */,
+				739456ECFC0942B8ADB02CCADBD50691 /* EPubExtractor.swift in Sources */,
+				55E7D9D3A21FDE6283785026C37D764B /* EpubParser.swift in Sources */,
+				913B395242548AE67E4023B000367726 /* GuideItem.swift in Sources */,
+				80FE4F8D6A53EF6F5A7D07883767941E /* ManifestItem.swift in Sources */,
+				243D075311831786191E3CDB4B6D2702 /* SpineItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0599DEBBF5AAAF1296F4125794783F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B3018E551B4A28B3FE19E647070D1F /* Pods-EnglishReader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9165641722834442B8BBAC67D025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BD61FC5E5E16492E12DB33A32C4643 /* aes_ni.c in Sources */,
+				84AD1B5614587B6FB52E9939AFAEAFFF /* aescrypt.c in Sources */,
+				2F730ECB9F70FF263480CDADC12216A8 /* aeskey.c in Sources */,
+				10D7513788C8EB559C463504688624BB /* aestab.c in Sources */,
+				F8F5F2A8FA32A7064DAA672ECCCE399A /* crypt.c in Sources */,
+				01801739A9EDEF1F102FBF32CC8F1E5B /* fileenc.c in Sources */,
+				1B7A76F7525BE47E1739701A64D38E55 /* hmac.c in Sources */,
+				AF3BD064276AAFFF4B31B1F88D18A3F5 /* ioapi.c in Sources */,
+				D01738ECD58751D9C6D5D98A523513AD /* ioapi_buf.c in Sources */,
+				31B3A51456AE965E22F5740DC20475BF /* ioapi_mem.c in Sources */,
+				9472699D2CD75D20FE90521CD9CB4ECC /* minishared.c in Sources */,
+				A573058757336D9399800421CD64D36F /* prng.c in Sources */,
+				696B67BD74DD6244A4DAFF2271815018 /* pwd2key.c in Sources */,
+				3611765C66DDC6FD63B55789747C59AC /* sha1.c in Sources */,
+				88D16ED7C940F6E33F8532AC93EA7625 /* SSZipArchive-dummy.m in Sources */,
+				D0BE3810629C6F2FDB3BF3C756D8F9EC /* SSZipArchive.m in Sources */,
+				E20D5A44C8C35D7A04953C1CA31D6D39 /* unzip.c in Sources */,
+				4C0F410D34F2E2959683EE56F8A47E90 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF01A91D60F97F029897B5A6C7F6FE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1746D87176A455F5FFA961075BA9999 /* Pods-EnglishReaderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29A5AD9A4FB30827D606602E6D28CE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = 939DA4FAAB94FC5EE0B3FCF4BAA2C49E /* AEXML */;
+			targetProxy = 28BD9BDE7B63166D15B39F3D8B40B929 /* PBXContainerItemProxy */;
+		};
+		2F26F3919C4EAE769F4DCE07B0495C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EpubExtractor;
+			target = 32D379C12FA3256047FD219A12A9DCE7 /* EpubExtractor */;
+			targetProxy = 8AC626F468A5C953EA90BE63688FCAFC /* PBXContainerItemProxy */;
+		};
+		42B9E12C080ADA6623C40960D1CEAC1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EnglishReader";
+			target = A92F1F814F02999E94C7871C9A87987B /* Pods-EnglishReader */;
+			targetProxy = AEDDF7903D7ABCC9B0E54003AAE84208 /* PBXContainerItemProxy */;
+		};
+		7E412451FBEAE9CA757AE534EDCDDF79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = 939DA4FAAB94FC5EE0B3FCF4BAA2C49E /* AEXML */;
+			targetProxy = 0B9B246E87DAFD5FD6BCE1150E17AEAF /* PBXContainerItemProxy */;
+		};
+		A8032B638335E87F84232D7570357678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EnglishReader";
+			target = A92F1F814F02999E94C7871C9A87987B /* Pods-EnglishReader */;
+			targetProxy = D7FCB95B0B29F094978E4F1AB9CDCDED /* PBXContainerItemProxy */;
+		};
+		E54E4EA4E20CA47A166BB0C1074050B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 1579D145982373DF97A2628BF0C374BD /* SSZipArchive */;
+			targetProxy = C139CA08798019334BB53DB91BDB1779 /* PBXContainerItemProxy */;
+		};
+		FCD548E6AB316423D7B5B1FB9361658B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 1579D145982373DF97A2628BF0C374BD /* SSZipArchive */;
+			targetProxy = 8BA36C254E5FBD9C6DCBDEC082AF428C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01037EB7D295E68C87D8EEE5CC0FD29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B980127CE8B38C41E828E55007805BB /* Pods-EnglishReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnglishReaderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnglishReaderUITests/Pods-EnglishReaderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11FB7053F68A443614A97A563D88FE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B20CDFF51EDA0BC84A52332AF10A693 /* AEXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3833C58CD02DD742C1881117DFC2CB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B20CDFF51EDA0BC84A52332AF10A693 /* AEXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		397E939E2451D29556791AA237DB02F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D1FC1B790FCD8CB6CDF7A0A85BAF97 /* Pods-EnglishReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnglishReaderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnglishReaderTests/Pods-EnglishReaderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5064F36A283D8513CDE4227101F71173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240FDCE68DF69A0553D19B298CFBA106 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CA89D0422AD8F79AF6883EBEA1DA69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DFA167F252890258BC360B9BE88012 /* EpubExtractor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EpubExtractor/EpubExtractor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EpubExtractor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EpubExtractor/EpubExtractor.modulemap";
+				PRODUCT_MODULE_NAME = EpubExtractor;
+				PRODUCT_NAME = EpubExtractor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		646AB5BA459B081B140DF23D78B56E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745E66BBF945B37AAC6D72440E55304C /* Pods-EnglishReaderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnglishReaderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnglishReaderUITests/Pods-EnglishReaderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FAA8346DA670F3A17AA6EFCABF37E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DFA167F252890258BC360B9BE88012 /* EpubExtractor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EpubExtractor/EpubExtractor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EpubExtractor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EpubExtractor/EpubExtractor.modulemap";
+				PRODUCT_MODULE_NAME = EpubExtractor;
+				PRODUCT_NAME = EpubExtractor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A37549439910C84BE8A90E2FD3E82331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C182FAE6F9C948615ADE79A8809BA3 /* Pods-EnglishReader.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnglishReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnglishReader/Pods-EnglishReader.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCD31C5514A5E1EC879F9142E160C92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490AC94EA5ACBEAEF5946F801C575C35 /* Pods-EnglishReader.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnglishReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnglishReader/Pods-EnglishReader.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1B29B4B65AA8752273FE8737E03B812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240FDCE68DF69A0553D19B298CFBA106 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E98D9A20ABF6D2928935D8DF28BB09A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1533B6E62EFE213367054F99013BFB41 /* Pods-EnglishReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnglishReaderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnglishReaderTests/Pods-EnglishReaderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CB43C31F6A0EFB844C7AD4A05A6F33D /* Build configuration list for PBXNativeTarget "Pods-EnglishReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37549439910C84BE8A90E2FD3E82331 /* Debug */,
+				BCD31C5514A5E1EC879F9142E160C92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142E8194DC0F82F27E0ECF6B1F096CE3 /* Build configuration list for PBXNativeTarget "Pods-EnglishReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01037EB7D295E68C87D8EEE5CC0FD29B /* Debug */,
+				646AB5BA459B081B140DF23D78B56E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811CE9A800468FCBEF7EEDE68DE6E18A /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B29B4B65AA8752273FE8737E03B812 /* Debug */,
+				5064F36A283D8513CDE4227101F71173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46B19531B6843C2617E111E153869B2 /* Build configuration list for PBXNativeTarget "EpubExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAA8346DA670F3A17AA6EFCABF37E8C /* Debug */,
+				5CA89D0422AD8F79AF6883EBEA1DA69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF00C8B16DCE7D100018BD835517C258 /* Build configuration list for PBXNativeTarget "Pods-EnglishReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98D9A20ABF6D2928935D8DF28BB09A6 /* Debug */,
+				397E939E2451D29556791AA237DB02F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35E6AA414D91179E03510FF66D5F9E4 /* Build configuration list for PBXNativeTarget "AEXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3833C58CD02DD742C1881117DFC2CB46 /* Debug */,
+				11FB7053F68A443614A97A563D88FE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

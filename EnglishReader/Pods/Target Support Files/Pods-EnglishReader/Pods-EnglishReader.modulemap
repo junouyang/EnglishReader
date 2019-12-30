@@ -1,0 +1,6 @@
+framework module Pods_EnglishReader {
+  umbrella header "Pods-EnglishReader-umbrella.h"
+
+  export *
+  module * { export * }
+}
